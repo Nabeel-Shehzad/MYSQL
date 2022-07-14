@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label fx:id="dashTitle2" layoutX="184.0" layoutY="26.0" prefHeight="110.0" prefWidth="233.0" style="-fx-alignment: center;" text="Please Login">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="dashUsername" layoutX="27.0" layoutY="135.0" prefHeight="17.0" prefWidth="99.0" text="Username:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="userID" layoutX="138.0" layoutY="136.0" prefHeight="25.0" prefWidth="336.0" promptText="Please Enter Username Here" />
+      <TextField fx:id="userPassword" layoutX="138.0" layoutY="188.0" prefHeight="25.0" prefWidth="336.0" promptText="Please Enter Password Here" />
+      <Label fx:id="dashPassword" layoutX="30.0" layoutY="187.0" prefHeight="17.0" prefWidth="99.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="loginButton" layoutX="270.0" layoutY="234.0" mnemonicParsing="false" onAction="#checkLoginButton" prefHeight="25.0" prefWidth="61.0" text="Login" />
+      <Label fx:id="locationText" layoutX="41.0" layoutY="288.0" prefHeight="25.0" prefWidth="204.0" style="-fx-alignment: center;" text="Location: ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="errorDescription" layoutX="126.0" layoutY="329.0" prefHeight="20.0" prefWidth="336.0" style="-fx-alignment: center;" textAlignment="CENTER" textFill="#ff1e1e" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>
