@@ -1485,7 +1485,6 @@ public class Controller {
             if (customerCountry.equals("United States")) {
                 Pattern r = Pattern.compile("\\d+\\s\\w+\\s\\w+\\p{Punct}\\s\\w+\\s\\w+");
                 Matcher m = r.matcher(customerAddressText.getText());
-
                 if (m.find()) {
                     customerAddress = customerAddressText.getText();
                 } else {
