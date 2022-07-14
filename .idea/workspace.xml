@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be65c389-0d16-479f-8a96-1873576f9078" name="Changes" comment="Initial code">
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="be65c389-0d16-479f-8a96-1873576f9078" name="Changes" comment="Initial code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/nabee/Downloads/Project/MYSQL/lib",
+    "last_opened_file_path": "D:/Java Imp/mysql-connector-java-8.0.16.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.2",
@@ -73,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657799166513</updated>
       <workItem from="1657799168240" duration="612000" />
+      <workItem from="1657799970596" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <created>1657799702416</created>
