@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be65c389-0d16-479f-8a96-1873576f9078" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="be65c389-0d16-479f-8a96-1873576f9078" name="Changes" comment="Initial code">
       <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labels_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labels_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labels_fr_CA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addAppointment.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addCustomer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reports.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/upcomingAppointment.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/updateAppointment.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/updateCustomer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/welcome.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MYSQL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +29,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/nabee/Downloads/Project/MYSQL/lib",
@@ -64,6 +44,26 @@
       <recent name="C:\Users\nabee\Downloads\Project\MYSQL\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MYSQL" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-17.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,8 +72,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657799166513</updated>
-      <workItem from="1657799168240" duration="488000" />
+      <workItem from="1657799168240" duration="612000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial code">
+      <created>1657799702416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657799702416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial code">
+      <created>1657799730858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657799730858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial code" />
   </component>
 </project>
